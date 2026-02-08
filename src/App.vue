@@ -1,0 +1,27 @@
+<script>
+import WXMarkdownRendererTool from './components/WXMarkdownRendererTool.vue'
+
+export default {
+  name: 'App',
+  components: {
+    WXMarkdownRendererTool
+  }
+}
+</script>
+
+<template>
+  <WXMarkdownRendererTool />
+</template>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  width: 100%;
+}
+</style>

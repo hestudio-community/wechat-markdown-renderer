@@ -1,0 +1,57 @@
+{
+  "name": "wechat-markdown-renderer",
+  "version": "1.0.0",
+  "description": "A Vue 3 Markdown renderer component optimized for WeChat.",
+  "type": "module",
+  "main": "./dist/wechat-markdown-renderer.umd.js",
+  "module": "./dist/wechat-markdown-renderer.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/wechat-markdown-renderer.es.js",
+      "require": "./dist/wechat-markdown-renderer.umd.js"
+    },
+    "./dist/wechat-markdown-renderer.css": "./dist/wechat-markdown-renderer.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vue3",
+    "markdown",
+    "renderer",
+    "wechat",
+    "component"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@vueuse/core": "^14.2.0",
+    "dompurify": "^3.3.1",
+    "element-plus": "^2.13.2",
+    "file-saver": "^2.0.5",
+    "highlight.js": "^11.11.1",
+    "juice": "^11.1.1",
+    "marked": "^17.0.1",
+    "marked-highlight": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.2.0",
+    "@vitejs/plugin-vue": "^6.0.4",
+    "vite": "^7.3.1",
+    "vue": "^3.5.27"
+  }
+}
